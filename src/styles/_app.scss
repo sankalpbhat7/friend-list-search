@@ -1,0 +1,80 @@
+.App-header {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.login_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+.login__form {
+  top: 30%;
+  position: absolute;
+  width: 440px;
+  background: darkseagreen;
+  height: 287px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid darkslategray;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.login-field {
+  font-size: 20px;
+  width: 100%;
+  margin-top: 5px;
+
+  span {
+    width: 30%;
+  }
+}
+
+.btn-login {
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+  background-color: black;
+  border: unset;
+  opacity: 0.3;
+  font-family: cursive;
+
+  &.active {
+    opacity: unset;
+  }
+}
+
+.login-error-message {
+  width: 440px;
+  color: red;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.user-details {
+  border: 2px solid red;
+  font-size: 13px;
+  display: inline-block;
+  margin: 2px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.users {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}

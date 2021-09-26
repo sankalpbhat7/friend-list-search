@@ -1,0 +1,14 @@
+.page-numbers {
+  margin-top: 20px;
+
+  & > span {
+    border: 1px solid gray;
+    padding: 2px;
+    margin: 0 8px;
+  }
+
+  .active {
+    color: white;
+    background: black;
+  }
+}

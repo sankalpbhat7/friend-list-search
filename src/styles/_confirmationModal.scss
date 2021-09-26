@@ -1,0 +1,29 @@
+.confirm_modal {
+  height: 100px;
+  width: 300px;
+  background: white;
+
+  & div {
+    padding: 5px;
+  }
+  .btn {
+    margin-top: 15px;
+    justify-content: space-around;
+    span {
+      width: 46%;
+      text-align: center;
+      height: 30px;
+      padding-top: 5px;
+      cursor: pointer;
+
+      &:first-child {
+        color: white;
+        background: black;
+      }
+      &:last-child {
+        background: lightgray;
+        color: black;
+      }
+    }
+  }
+}

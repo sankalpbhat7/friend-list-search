@@ -1,0 +1,42 @@
+.header {
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 1px solid gainsboro;
+
+  .logo {
+    text-decoration: unset;
+    color: steelblue;
+  }
+
+  nav {
+    & > a {
+      margin-right: 20px;
+      color: black;
+      text-decoration: unset;
+    }
+
+    .user_name {
+      color: darkslategray;
+      font-weight: 500;
+    }
+
+    .cart {
+      position: relative;
+
+      .badge__cart-count {
+        background: #ec2b21;
+        border-radius: 50%;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        height: 14px;
+        position: absolute;
+        right: 0px;
+        text-align: center;
+        width: 14px;
+      }
+    }
+  }
+}

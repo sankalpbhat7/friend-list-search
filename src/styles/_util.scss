@@ -1,0 +1,87 @@
+// Add the main parent className of ur component to use these util classes.
+// do not change the existing ones while you can add the new ones.
+$c-xs: 0.5rem; // 8px
+$c-xsm: 0.625rem; // 10px
+$c-xm: 0.75rem; // 12px
+$c-xms: 0.8125rem; // 13px
+$c-s: 0.875rem; // 14px
+$c-ms: 0.9375rem; // 15px
+$c-m: 1rem; // 16px
+$c-ml: 1.125rem; // 18px
+$c-l: 1.25rem; // 20px
+$c-ll: 1.375rem; // 22px
+$c-xl: 1.5rem; // 24px
+$c-xll: 1.625rem; // 26px
+$c-xxl: 2.25rem; // 36px
+$c-full: 3rem; // 48px
+$c-bot: 3.4375rem; // 55px
+
+// @mixin textAlignment($font-size, $line-height) {
+//   font-size: $font-size;
+//   line-height: $line-height;
+// }
+
+$max-mobile-width: 768px;
+
+.content--centered {
+  max-width: 1156px;
+  width: 100%;
+}
+
+.f1 { font-size: $c-full; } // 48px
+.f2 { font-size: $c-xxl; } // 36px
+.f3 { font-size: $c-xll; } // 26px
+.f4 { font-size: $c-xl; } // 24px
+.f5 { font-size: $c-l; } // 20px
+.f6 { font-size: $c-m; } // 16px
+.f7 { font-size: $c-ms; } // 15px
+.f8 { font-size: $c-s; } // 14px
+.f9 { font-size: $c-xms; } // 13px
+.f10 { font-size: $c-xm; } // 12px
+.f11 { font-size: $c-xsm; } // 10px
+.f12 { font-size: $c-xs; } // 8px
+.f13 { font-size: $c-ml; } // 18px
+.f14 { font-size: $c-ll; } // 22px
+
+.lh8 { line-height: $c-s; } // 14px
+.lh6 { line-height: $c-m; } // 16px
+.lh13 { line-height: $c-ml;} // 18px
+.lh5 { line-height: $c-l; } // 20px
+.lh4 { line-height: $c-xl; } // 24px
+.lh3 { line-height: $c-xll; } // 26px
+
+.ffW { font-family: Wfutura; }
+.ffWB { font-family: wfuturasemibold; }
+.ffA { font-family: Arial; }
+
+.fw600 { font-weight: 600; }
+.fwB { font-weight: bold; }
+.ttU { text-transform: uppercase;}
+.ttC { text-transform: capitalize;}
+.curPointer { cursor: pointer; ;}
+
+.taR { text-align: right;}
+.taL { text-align: left;}
+.taC { text-align: center;}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.d--f {
+  display: flex;
+}
+
+.no-wrap-ellipsis{
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  max-height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+input{
+  outline: unset;
+}
